@@ -45,6 +45,7 @@ const onClickAdd = () => {
 // clickされたら、onClickAddを実行する
 document.getElementById('add-button').addEventListener('click', onClickAdd);
 
+// 確認用カスタムアラート
 function showCustomAlert(message) {
   // div要素を作成し、変数modalに格納します
   const modal = document.createElement('div');
